@@ -13,7 +13,6 @@ import org.springframework.stereotype.Controller;
 public class StompController {
 
     private final ChatService chatService;
-
     private final SimpMessagingTemplate template;
 
 
