@@ -12,6 +12,8 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ChatController {
 
+    // 아무래도 사용하지 않을것 같다 zoom 프로젝트에 구현 완료 함
+
     private final ChatService chatService;
 
     @PostMapping
